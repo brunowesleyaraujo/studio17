@@ -1,0 +1,22 @@
+/* contact styling */
+.contact .contact-img {
+    position: relative;
+    height: 100%;
+  }
+  
+  .contact .contact-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .contact .contact-form input,
+  .contact .contact-form textarea {
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #d5b981;
+  }
+  

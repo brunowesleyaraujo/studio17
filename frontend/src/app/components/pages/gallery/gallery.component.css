@@ -1,0 +1,43 @@
+.gallery .item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.gallery .item:hover {
+    margin-top: -10px;
+}
+
+.gallery .gallery-wrap {
+    position: relative;
+    width: 100%;
+}
+
+.gallery .gallery-wrap a::after {
+    position: absolute;
+    content: "";
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    background: transparent;
+    border: 1px solid #F6F6F7;
+    transition: .3s;
+    z-index: 1;
+}
+
+.gallery .gallery-wrap:hover a::after {
+    border-color: #D5B981;
+}
+
+.gallery img {
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+.hide {
+    display: none;
+    opacity: 0;
+}

@@ -1,0 +1,44 @@
+/* service styling*/
+.card:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+    background: #d5b981;
+  }
+  
+  /* price styling*/
+  .price .price-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background: rgba(29, 36, 52, 0.04);
+    transition: 0.3s;
+  }
+  
+  .price .price-item:hover {
+    background: #d5b981;
+  }
+  
+  .price .price-img {
+    position: relative;
+    width: 100px;
+  }
+  
+  .price .price-img img {
+    width: 100%;
+  }
+  
+  .price .price-img::after {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    z-index: 1;
+  }

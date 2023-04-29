@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Corte",
+      "price": 15,
+      "funcionario":"Reis"
+    },
+    {
+      "id": 2,
+      "name": "Barba",
+      "price": 20,
+      "funcionario":"Felipe"
+    },
+    {
+      "id": 3,
+      "name": "Sobrancelha",
+      "price": 8,
+      "funcionario":"Eric"
+    }
+  ]
+}
